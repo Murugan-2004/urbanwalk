@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/logo-200x32.webp" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a class="tec" href="#"><b>Urbanwalk</b></a>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="typography.html">Typography</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="home" href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="about">
+        <p class="abt-1">Contact</p>
+        <p class="hab"><a class="hom" href="#">Home</a> / Contact</p> 
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.142293761327!2d-73.98731968459391!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480293%3A0x5119f4414902377!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1625123456789!5m2!1sen!2sus" 
+    width="100%" height="500" style="border:0;"></iframe>
+
+    <section>
+        <div class="row bg-11">
+            <div class="col-19">
+                <h3 class="con">Contact Details</h3>
+                <div class="detail">
+                    <p>Address: 4578 Marmora Road, Glasgow, D04 89GR</p>
+                    <p>Phones:<a class="num-1" href="#">(800) 123-0045 (800) 123-0045</a></p>
+                    <p>Email:<a class="num-1" href="#"> info@demolink.org</a></p>
+                    <p>We are open: Mn-Fr: 10 am-8 pm</p>
+                    <ul class="flogo-1">
+                        <li><ion-icon name="logo-facebook"></ion-icon></li>
+                        <li><ion-icon name="logo-twitter"></ion-icon></li>
+                        <li><ion-icon name="logo-google"></ion-icon></li>
+                        <li><ion-icon name="logo-vimeo"></ion-icon></li>
+                        <li><ion-icon name="logo-youtube"></ion-icon></li>
+                        <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-19">
+                <h3 class="con">Let’s Get in Touch</h3>
+                <form>
+                    <input class="cform" type="name" name="name" placeholder="Your name" required>
+                    <input class="cform" type="email" name="mail" placeholder="Your e-mail" required>
+                    <input class="cform" type="num" name="phone" placeholder="Your phone" required>
+                    <textarea class="text" placeholder="Your message"></textarea>
+                    <button class="sub-2">SEND</button>
+                </form>
+                <script>
+                    let name = document.getElementById("name").value;
+                    let email = document.getElementById("email").value;
+
+                    if(name === "") {
+                        alert("Name cannot be empty");
+                    }
+
+                    if(email.includes("@")) {
+                        alert("Enter a valid email");
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <img src="Assets/urb4.jpg" alt="urb">
+    </section>
+
+    <section class="bg-7">
+        <div class="row abt">
+            <div class="col-16">
+                <h6 class="ab">About</h6>
+                <p class="fits">Monstroid² is HTML template that fits for both developers and beginners. It comes loaded with an assortment of tools and features that make customization process much easier. A pack of child themes, provided with the full version of this template, allows users to create a fully functional site for any specific business quickly and worry-free.</p>
+            </div>
+            <div class="col-16 quick">
+                <h6 class="ab">Quick Links</h6>
+                <div>
+                    <a class="retina" href="#">Retina Homepage</a><br>
+                    <a class="retina" href="#">New Page Examples</a><br>
+                    <a class="retina" href="#">Parallax Section</a><br>
+                    <a class="retina" href="#">Shortcode Central</a><br>
+                    <a class="retina" href="#">Ultimate Font Collection</a>
+                </div>
+            </div>
+            <div class="col-16">
+                <h6 class="ab">Recents Comments</h6>
+                <p class="brain">Brian Williamson on</p>
+                <p class="site-2"><a href="#">Site Speed and Search Engines Optimization Aspects</a></p>
+                <p class="brain">Brian Williamson on</p>
+                <p class="site-2"><a href="#">5 Things to Know Before You Buy an HTML Template</a></p>
+                <p class="brain">Brian Williamson on</p>
+                <p class="site-2"><a href="#">Turning Your Site into a Sales Machine</a></p>
+            </div>
+            <div class="col-16">
+                <h6 class="ab">Contacts</h6>
+                <p class="act">Address: 4578 Marmora Road, Glasgow, D04 89GR</p>
+                <p>Phones:<a class="num" href="#">(800) 123-0045 (800) 123-0045</a></p>
+                <p>Email:<a class="num" href="#"> info@demolink.org</a></p>
+                <p class="act">We are open: Mn-Fr: 10 am-8 pm</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <p class="fmons">Monstroid² © 2026. Design by<a class="tmons" href="#"> TemplateMonster</a></p>
+        <ul class="flogo">
+            <li><ion-icon name="logo-facebook"></ion-icon></li>
+            <li><ion-icon name="logo-twitter"></ion-icon></li>
+            <li><ion-icon name="logo-google"></ion-icon></li>
+            <li><ion-icon name="logo-vimeo"></ion-icon></li>
+            <li><ion-icon name="logo-youtube"></ion-icon></li>
+            <li><ion-icon name="logo-pinterest"></ion-icon></li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>
